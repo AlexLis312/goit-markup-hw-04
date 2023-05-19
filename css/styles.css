@@ -45,13 +45,12 @@
   margin-right: 10px;
 }
 .clients {
-  justify-content: space-between;
+  margin: auto;
 }
 .cont-social {
   margin-top: 16px;
 }
 .agit {
-  padding-top: 72px;
   margin-bottom: 20px;
   color: var(--prime-white-color);
   font-weight: 700;
