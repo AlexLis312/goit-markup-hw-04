@@ -62,6 +62,8 @@
 }
 .clients {
   margin: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 .cont-social {
   margin-top: 16px;
