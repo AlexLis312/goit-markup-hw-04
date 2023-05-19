@@ -35,7 +35,7 @@
   display: flex;
 }
 .social-list {
-  align-items: center;
+  justify-content: center;
 }
 .social-icon {
   width: 44px;
