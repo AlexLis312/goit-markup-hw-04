@@ -34,6 +34,16 @@
 .disflex {
   display: flex;
 }
+.social-link {
+  width: 44px;
+  height: 44px;
+}
+.social-link:not(:last-child) {
+  margin-right: 10px;
+}
+.clients {
+  justify-content: space-between;
+}
 body {
   background-color: var(--prime-white-color);
   color: var(--text-color);
