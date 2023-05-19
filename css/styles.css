@@ -107,6 +107,7 @@ h1 {
   text-decoration: none;
   cursor: pointer;
 }
+
 .site-nav .link:focus,
 .site-nav .link:hover {
   color: var(--accent-color);
@@ -138,7 +139,6 @@ h1 {
 .contacts .mail-tel:hover {
   color: var(--accent-color);
 }
-
 /* hero */
 .hero-button {
   min-width: 216px;
@@ -154,13 +154,21 @@ h1 {
   letter-spacing: 0.06em;
   text-decoration: none;
   text-align: center;
+
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .hero {
   padding-bottom: 200px;
   padding-top: 200px;
 
-  background-color: var(--background-color);
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero.jpg");
   text-align: center;
 }
 
@@ -207,10 +215,15 @@ h1 {
   margin-top: 50px;
   display: flex;
 }
+.teammates .item {
+  background: var(--prime-white-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 .teammates .item.item:not(:last-child) {
   margin-right: 30px;
 }
-
 .teammates-title {
   margin: 0;
   margin-bottom: 10px;
@@ -314,6 +327,8 @@ address {
 .portfolio-buttons .button:focus {
   background-color: var(--accent-color);
   color: var(--prime-white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .works-title {
@@ -338,6 +353,11 @@ address {
 .works .item {
   margin-right: 30px;
   margin-bottom: 30px;
+}
+.works .item:hover,
+.works .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .works .item:nth-child(3n) {
   margin-right: 0;
