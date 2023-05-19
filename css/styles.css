@@ -50,6 +50,15 @@
 .cont-social {
   margin-top: 16px;
 }
+.agit {
+  padding-top: 72px;
+  margin-bottom: 20px;
+  color: var(--prime-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 .cont-social-foot {
   padding-left: 70px;
 }
