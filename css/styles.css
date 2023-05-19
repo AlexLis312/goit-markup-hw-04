@@ -67,6 +67,7 @@
   margin-top: 16px;
 }
 .agit {
+  margin: 0;
   margin-bottom: 20px;
   color: var(--prime-white-color);
   font-weight: 700;
