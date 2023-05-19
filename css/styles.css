@@ -34,7 +34,7 @@
 .disflex {
   display: flex;
 }
-.social-list {
+.social {
   justify-content: center;
 }
 .social-icon {
