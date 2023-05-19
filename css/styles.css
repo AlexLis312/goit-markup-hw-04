@@ -45,7 +45,12 @@
   text-decoration: none;
 }
 .clients-link {
+  width: 170px;
+  height: 92px;
   text-decoration: none;
+}
+.clients-list:not(:last-child) {
+  margin-right: 30px;
 }
 .mail-icon {
   width: 16px;
