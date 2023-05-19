@@ -49,6 +49,9 @@
   height: 92px;
   text-decoration: none;
 }
+.clients-list {
+  margin-top: 30px;
+}
 .clients-list:not(:last-child) {
   margin-right: 30px;
 }
