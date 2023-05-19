@@ -31,6 +31,9 @@
 .disblock {
   display: block;
 }
+.disflex {
+  display: flex;
+}
 body {
   background-color: var(--prime-white-color);
   color: var(--text-color);
