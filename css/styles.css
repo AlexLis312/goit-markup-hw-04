@@ -34,6 +34,9 @@
 .disflex {
   display: flex;
 }
+.social-list {
+  align-items: center;
+}
 .social-icon {
   width: 44px;
   height: 44px;
@@ -43,6 +46,12 @@
 }
 .clients {
   justify-content: space-between;
+}
+.cont-social {
+  margin-top: 16px;
+}
+.cont-social .foot {
+  padding-left: 70px;
 }
 body {
   background-color: var(--prime-white-color);
