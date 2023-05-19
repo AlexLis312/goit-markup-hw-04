@@ -44,12 +44,14 @@
 .mail-icon {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
 }
 .tel-icon {
   width: 10px;
   height: 16px;
+  margin-right: 10px;
 }
-.social-link:not(:last-child) {
+.social-list:not(:last-child) {
   margin-right: 10px;
 }
 .clients {
