@@ -34,8 +34,7 @@
 .disflex {
   display: flex;
 }
-.social,
-.clients {
+.social {
   justify-content: center;
 }
 .social-icon {
@@ -73,6 +72,7 @@
   margin-right: 10px;
 }
 .clients {
+  justify-content: center;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 0;
