@@ -45,11 +45,12 @@
   text-decoration: none;
 }
 .clients-link {
-  width: 170px;
-  height: 92px;
+  border: 1px solid #afb1b8;
   text-decoration: none;
 }
 .clients-list {
+  width: 106px;
+  height: 60px;
   margin-top: 30px;
 }
 .clients-list:not(:last-child) {
