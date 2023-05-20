@@ -231,6 +231,12 @@ h1 {
 }
 
 /* peculiarities */
+.img {
+  margin-bottom: 30px;
+}
+.item .img:not(:last-child) {
+  margin-right: 30px;
+}
 .peculiarities {
   display: flex;
 }
