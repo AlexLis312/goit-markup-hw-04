@@ -47,10 +47,12 @@
 .clients-link {
   text-decoration: none;
 }
-.clients-list {
+.client-icon {
   border: 1px solid #afb1b8;
   width: 106px;
   height: 60px;
+}
+.clients-list {
   margin-top: 30px;
 }
 .clients-list:not(:last-child) {
