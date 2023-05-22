@@ -209,10 +209,10 @@ h1 {
 .on-icon:focus {
   color: var(--accent-color);
 }
-/* .mail-tel:focus,
-.mail-tel:hover{
+.mail-tel:focus,
+.mail-tel:hover {
   color: var(--accent-color);
-} */
+}
 /* hero */
 .hero-button {
   min-width: 216px;
