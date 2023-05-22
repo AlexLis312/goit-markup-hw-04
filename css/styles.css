@@ -60,13 +60,13 @@
   margin-right: 30px;
 }
 .mail-icon {
-  text-align: center;
+  background-size: contain;
   width: 16px;
   height: 12px;
   margin-right: 10px;
 }
 .tel-icon {
-  text-align: center;
+  background-size: contain;
   width: 10px;
   height: 16px;
   margin-right: 10px;
