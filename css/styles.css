@@ -42,6 +42,7 @@
   height: 20px;
 }
 .social-link {
+  display: block;
   text-decoration: none;
 }
 .clients-link {
