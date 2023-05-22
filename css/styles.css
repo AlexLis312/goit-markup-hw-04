@@ -250,14 +250,14 @@ h1 {
 /* peculiarities */
 .img-cont {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
 }
 .img {
   display: flex;
-  justify-content: center;
+  align-items: center;
 
   width: 70px;
   height: 70px;
