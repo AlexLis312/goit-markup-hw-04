@@ -38,8 +38,8 @@
   justify-content: center;
 }
 .social-icon {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
 }
 .social-link {
   text-decoration: none;
@@ -50,7 +50,6 @@
 .bord {
 }
 .client-icon {
-  border: 1px solid #afb1b8;
   width: 106px;
   height: 60px;
 }
@@ -237,8 +236,8 @@ h1 {
 
 /* peculiarities */
 .img {
-  width: 270px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
 }
 .peculiarities {
   display: flex;
