@@ -200,14 +200,14 @@ h1 {
 .contacts .item:not(:last-child) {
   margin-right: 33px;
 }
-.mail-tel:focus,
-.mail-icon:focus,
-.tel-icon:focus,
-.mail-tel:hover,
-.mail-icon:hover,
-.tel-icon:hover {
+.on-icon:hover,
+.on-icon:focus {
   color: var(--accent-color);
 }
+/* .mail-tel:focus,
+.mail-tel:hover{
+  color: var(--accent-color);
+} */
 /* hero */
 .hero-button {
   min-width: 216px;
