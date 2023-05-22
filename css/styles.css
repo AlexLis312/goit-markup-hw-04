@@ -246,7 +246,7 @@ h1 {
 .img {
   width: 70px;
   height: 70px;
-  background-size: contain;
+  text-align: center;
 }
 .peculiarities {
   display: flex;
