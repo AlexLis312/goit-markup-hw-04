@@ -239,8 +239,9 @@ h1 {
 
 /* peculiarities */
 .img {
-  width: 70px;
+  display: block;
   height: 70px;
+  background-size: contain;
 }
 .peculiarities {
   display: flex;
