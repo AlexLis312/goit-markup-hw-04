@@ -50,6 +50,15 @@
 }
 .bord {
 }
+.mail::before {
+  content: "";
+  width: 16px;
+  height: 10px;
+  margin-right: 10px;
+  background-size: contain;
+  background-image: url("../images/mail.svg");
+}
+
 .client-icon {
   width: 106px;
   height: 60px;
