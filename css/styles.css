@@ -53,14 +53,16 @@
 .mail::before {
   content: "";
   display: block;
-  height: 10px;
+  height: 12px;
+  width: 16px;
   margin-right: 10px;
   background-image: url("../images/mail.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .mail:hover::before {
-  color: #2196f3;
+  fill: #2196f3;
 }
 
 .client-icon {
