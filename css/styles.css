@@ -68,13 +68,6 @@
 .clients-list:not(:last-child) {
   margin-right: 30px;
 }
-.mail-tel::before {
-  content: "";
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-image: url("./images/symbol-defsMoon.svg#mail");
-}
 .mail-icon {
   width: 16px;
   height: 12px;
@@ -222,6 +215,7 @@ h1 {
 }
 .mail-tel:focus,
 .mail-tel:hover {
+  fill: var(--accent-color);
   color: var(--accent-color);
 }
 /* hero */
