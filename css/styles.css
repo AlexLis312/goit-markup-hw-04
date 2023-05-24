@@ -54,7 +54,12 @@
   width: 106px;
   height: 60px;
 }
-.tel-icon:hover {
+.tel-icon:hover,
+.tel-icon:focus {
+  fill: var(--accent-color);
+}
+.mail-icon:hover,
+.mail-icon:focus {
   fill: var(--accent-color);
 }
 .clients-list {
@@ -68,7 +73,7 @@
   height: 12px;
   margin-right: 10px;
 
-  fill: var(--accent-color);
+  fill: #afb1b8;
 }
 .tel-icon {
   align-items: center;
@@ -76,7 +81,7 @@
   height: 16px;
   margin-right: 10px;
 
-  fill: var(--text-color);
+  fill: #afb1b8;
 }
 .social-list:not(:last-child) {
   margin-right: 10px;
