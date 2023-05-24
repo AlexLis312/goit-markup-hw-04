@@ -223,7 +223,6 @@ h1 {
 .mail-tel:focus,
 .mail-tel:hover {
   color: var(--accent-color);
-  fill: #2196f3;
 }
 /* hero */
 .hero-button {
