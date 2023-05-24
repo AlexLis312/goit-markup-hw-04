@@ -4,6 +4,7 @@
   --text-color: #757575;
   --background-color: #2f303a;
   --prime-white-color: #ffffff;
+  --icon-color: #afb1b8;
 }
 
 *,
@@ -37,18 +38,33 @@
 .social {
   justify-content: center;
 }
+.social-list {
+  display: flex;
+}
+
 .social-icon {
   width: 20px;
   height: 20px;
+  fill: currentColor;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--prime-white-color);
 }
 .social-link {
+  justify-content: center;
+  align-items: center;
   display: flex;
   text-decoration: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--icon-color);
+  background-color: var(--prime-white-color);
 }
 .clients-link {
   text-decoration: none;
-}
-.bord {
 }
 .client-icon {
   width: 106px;
@@ -73,7 +89,7 @@
   height: 12px;
   margin-right: 10px;
 
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 .tel-icon {
   align-items: center;
@@ -81,7 +97,7 @@
   height: 16px;
   margin-right: 10px;
 
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 .social-list:not(:last-child) {
   margin-right: 10px;
@@ -107,6 +123,11 @@
 .cont-social-foot {
   padding-left: 70px;
 }
+.social-foot {
+  color: var(--prime-white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 body {
   background-color: var(--prime-white-color);
   color: var(--text-color);
@@ -215,7 +236,6 @@ h1 {
 }
 .mail-tel:focus,
 .mail-tel:hover {
-  fill: var(--accent-color);
   color: var(--accent-color);
 }
 /* hero */
