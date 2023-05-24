@@ -50,24 +50,12 @@
 }
 .bord {
 }
-.mail::before {
-  content: "";
-  display: block;
-  height: 12px;
-  width: 16px;
-  margin-right: 10px;
-  background-image: url("../images/mail.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.mail:hover::before {
-  fill: #2196f3;
-}
-
 .client-icon {
   width: 106px;
   height: 60px;
+}
+.icon-hover:hover {
+  fill: var(--accent-color);
 }
 .clients-list {
   margin-top: 30px;
